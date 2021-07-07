@@ -6,8 +6,8 @@
 - [x] justify-content
 - [x] align-items
 - [x] align-self
-- [ ] flex-wrap
-- [ ] align-content
-- [ ] flex-gorw
-- [ ] flex-shrink
+- [x] flex-wrap
+- [x] align-content
+- [x] flex-gorw
+- [x] flex-shrink
 - [ ] felx-basis

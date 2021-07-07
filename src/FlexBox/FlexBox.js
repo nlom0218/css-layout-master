@@ -17,6 +17,12 @@ const FlexBox = () => {
     <Item>
       <Link to="/flexbox/wrap">wrap & align-center</Link>
     </Item>
+    <Item>
+      <Link to="/flexbox/grow">flex-grow</Link>
+    </Item>
+    <Item>
+      <Link to="/flexbox/shrink">flex-shrink</Link>
+    </Item>
   </List>);
 }
 
