@@ -6,6 +6,7 @@ import Home from './Home';
 import Wrap from './FlexBox/Wrap';
 import Grow from './FlexBox/Grow';
 import Shrink from './FlexBox/Shrink';
+import Basis from "./FlexBox/Basis"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/flexbox/wrap"><Wrap /></Route>
         <Route path="/flexbox/grow"><Grow /></Route>
         <Route path="/flexbox/shrink"><Shrink /></Route>
+        <Route path="/flexbox/basis"><Basis /></Route>
         <Route path="/flexbox"><FlexBox /></Route>
       </Switch>
     </Router>

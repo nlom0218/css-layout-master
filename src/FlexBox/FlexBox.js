@@ -23,6 +23,9 @@ const FlexBox = () => {
     <Item>
       <Link to="/flexbox/shrink">flex-shrink</Link>
     </Item>
+    <Item>
+      <Link to="/flexbox/basis">flex-basis</Link>
+    </Item>
   </List>);
 }
 

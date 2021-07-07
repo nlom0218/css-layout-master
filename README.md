@@ -10,4 +10,4 @@
 - [x] align-content
 - [x] flex-gorw
 - [x] flex-shrink
-- [ ] felx-basis
+- [x] felx-basis
