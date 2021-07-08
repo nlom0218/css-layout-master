@@ -19,6 +19,7 @@ function App() {
         <Route path="/flexbox/shrink"><Shrink /></Route>
         <Route path="/flexbox/basis"><Basis /></Route>
         <Route path="/flexbox"><FlexBox /></Route>
+        <Route path="/grid"><FlexBox /></Route>
       </Switch>
     </Router>
   );
