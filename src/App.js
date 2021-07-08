@@ -13,6 +13,7 @@ import Areas from './Grid/Areas';
 import RowsColumns from './Grid/RowsColumns';
 import Shortcuts from './Grid/ShortCuts';
 import Template from './Grid/Template';
+import Items from './Grid/Items';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/grid/rowsColumns"><RowsColumns /></Route>
         <Route path="/grid/shortcuts"><Shortcuts /></Route>
         <Route path="/grid/template"><Template /></Route>
+        <Route path="/grid/items"><Items /></Route>
         <Route path="/grid"><Grid /></Route>
       </Switch>
     </Router>

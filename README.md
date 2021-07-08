@@ -20,10 +20,10 @@
 - [x] gap
 - [x] grid-template-areas
 - [x] grid-template
-- [ ] justify-items
-- [ ] align-items
-- [ ] justify-content
-- [ ] align-content
+- [x] justify-items
+- [x] align-items
+- [x] justify-content
+- [x] align-content
 - [ ] grid-auto-columns
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
