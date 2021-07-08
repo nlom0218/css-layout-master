@@ -7,6 +7,8 @@ import Wrap from './FlexBox/Wrap';
 import Grow from './FlexBox/Grow';
 import Shrink from './FlexBox/Shrink';
 import Basis from "./FlexBox/Basis"
+import Grid from "./Grid/Grid"
+import BasicConcepts from './Grid/BasicConcepts';
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
         <Route path="/flexbox/shrink"><Shrink /></Route>
         <Route path="/flexbox/basis"><Basis /></Route>
         <Route path="/flexbox"><FlexBox /></Route>
-        <Route path="/grid"><FlexBox /></Route>
+        <Route path="/grid/concepts"><BasicConcepts /></Route>
+        <Route path="/grid"><Grid /></Route>
       </Switch>
     </Router>
   );

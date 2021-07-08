@@ -12,7 +12,7 @@ const Item = styled.li``
 const FlexBox = () => {
   return (<List>
     <Item>
-      <Link to="/flexbox/alignSelf">align-self & order</Link>
+      <Link to="/grid/concepts">Basic Concepts</Link>
     </Item>
     <Item>
       <Link to="/flexbox/wrap">wrap & align-center</Link>

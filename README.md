@@ -13,11 +13,11 @@
 - [x] felx-basis
 
 # Grid:
-- [ ] grid-template-columns
-- [ ] grid-template-rows
-- [ ] grid-template-gap
-- [ ] grid-row-gap
-- [ ] grid-gap
+- [x] grid-template-columns
+- [x] grid-template-rows
+- [x] column-gap
+- [x] row-gap
+- [x] gap
 - [ ] grid-template-areas
 - [ ] grid-template
 - [ ] justify-items
