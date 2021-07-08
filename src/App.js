@@ -9,6 +9,7 @@ import Shrink from './FlexBox/Shrink';
 import Basis from "./FlexBox/Basis"
 import Grid from "./Grid/Grid"
 import BasicConcepts from './Grid/BasicConcepts';
+import Areas from './Grid/Areas';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/flexbox/basis"><Basis /></Route>
         <Route path="/flexbox"><FlexBox /></Route>
         <Route path="/grid/concepts"><BasicConcepts /></Route>
+        <Route path="/grid/areas"><Areas /></Route>
         <Route path="/grid"><Grid /></Route>
       </Switch>
     </Router>

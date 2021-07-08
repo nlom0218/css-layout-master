@@ -15,16 +15,16 @@ const FlexBox = () => {
       <Link to="/grid/concepts">Basic Concepts</Link>
     </Item>
     <Item>
-      <Link to="/flexbox/wrap">wrap & align-center</Link>
+      <Link to="/grid/areas">Grid Template Areas</Link>
     </Item>
     <Item>
-      <Link to="/flexbox/grow">flex-grow</Link>
+      <Link to="/grid/grow">flex-grow</Link>
     </Item>
     <Item>
-      <Link to="/flexbox/shrink">flex-shrink</Link>
+      <Link to="/grid/shrink">flex-shrink</Link>
     </Item>
     <Item>
-      <Link to="/flexbox/basis">flex-basis</Link>
+      <Link to="/grid/basis">flex-basis</Link>
     </Item>
   </List>);
 }
