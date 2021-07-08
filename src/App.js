@@ -10,6 +10,7 @@ import Basis from "./FlexBox/Basis"
 import Grid from "./Grid/Grid"
 import BasicConcepts from './Grid/BasicConcepts';
 import Areas from './Grid/Areas';
+import RowsColumns from './Grid/RowsColumns';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/flexbox"><FlexBox /></Route>
         <Route path="/grid/concepts"><BasicConcepts /></Route>
         <Route path="/grid/areas"><Areas /></Route>
+        <Route path="/grid/rowsColumns"><RowsColumns /></Route>
         <Route path="/grid"><Grid /></Route>
       </Switch>
     </Router>

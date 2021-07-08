@@ -18,7 +18,7 @@ const FlexBox = () => {
       <Link to="/grid/areas">Grid Template Areas</Link>
     </Item>
     <Item>
-      <Link to="/grid/grow">flex-grow</Link>
+      <Link to="/grid/rowsColumns">Rows & Columns</Link>
     </Item>
     <Item>
       <Link to="/grid/shrink">flex-shrink</Link>

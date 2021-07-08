@@ -18,8 +18,8 @@
 - [x] column-gap
 - [x] row-gap
 - [x] gap
-- [ ] grid-template-areas
-- [ ] grid-template
+- [x] grid-template-areas
+- [x] grid-template
 - [ ] justify-items
 - [ ] align-items
 - [ ] justify-content
