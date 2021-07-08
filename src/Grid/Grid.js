@@ -21,10 +21,10 @@ const FlexBox = () => {
       <Link to="/grid/rowsColumns">Rows & Columns</Link>
     </Item>
     <Item>
-      <Link to="/grid/shrink">flex-shrink</Link>
+      <Link to="/grid/shortcuts">Shortcuts</Link>
     </Item>
     <Item>
-      <Link to="/grid/basis">flex-basis</Link>
+      <Link to="/grid/template">Template</Link>
     </Item>
   </List>);
 }

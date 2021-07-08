@@ -27,11 +27,11 @@
 - [ ] grid-auto-columns
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
-- [ ] grid-column-start
-- [ ] grid-column-end
-- [ ] grid-row-start
-- [ ] grid-row-end
-- [ ] grid-column
-- [ ] grid-row
+- [x] grid-column-start
+- [x] grid-column-end
+- [x] grid-row-start
+- [x] grid-row-end
+- [x] grid-column
+- [x] grid-row
 - [ ] justify-self
 - [ ] align-self

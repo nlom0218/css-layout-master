@@ -9,22 +9,27 @@ const Father = styled.div`
 
 const Header = styled.div`
   background-color: blue;
+  grid-column: span 4;
 `
 
 const Content = styled.div`
   background-color: green;
+  grid-column: 1 / -2;
+  grid-row: span 2;
 `
 
 const Nav = styled.div`
   background-color: red;
+  grid-row: span 2;
 `
 
 const Footer = styled.div`
-  background-color: yellow;
+  background-color: orange;
+  grid-column: span 4;
 `
 
 
-const BasicConcepts = () => {
+const Shortcuts = () => {
   return (<Father>
     <Header></Header>
     <Content></Content>
@@ -33,4 +38,4 @@ const BasicConcepts = () => {
   </Father>);
 }
 
-export default BasicConcepts;
+export default Shortcuts;
