@@ -29,6 +29,9 @@ const FlexBox = () => {
     <Item>
       <Link to="/grid/items">Place Items</Link>
     </Item>
+    <Item>
+      <Link to="/grid/auto">Auto Columns and Rows</Link>
+    </Item>
   </List>);
 }
 
