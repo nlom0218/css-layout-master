@@ -10,6 +10,15 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
 `
 
 export default GlobalStyle

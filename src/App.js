@@ -18,6 +18,7 @@ import Auto from './Grid/Auto';
 import Clone from './Clone/Clone';
 import Bhs from './Clone/Bhs';
 import GlobalStyle from './Globalstyles';
+import Pb from './Clone/Pb';
 
 function App() {
   return (<>
@@ -40,6 +41,7 @@ function App() {
         <Route path="/grid/auto"><Auto /></Route>
         <Route path="/grid"><Grid /></Route>
         <Route path="/clone/bhs"><Bhs /></Route>
+        <Route path="/clone/pb"><Pb /></Route>
         <Route path="/clone"><Clone /></Route>
       </Switch>
     </Router>

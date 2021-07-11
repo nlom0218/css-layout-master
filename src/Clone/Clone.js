@@ -15,7 +15,7 @@ const Clone = () => {
       <Link to="/clone/bhs">Best Horror Scenes</Link>
     </Item>
     <Item>
-      <Link to="/flexbox/wrap">wrap & align-center</Link>
+      <Link to="/clone/pb">Paint Box</Link>
     </Item>
     <Item>
       <Link to="/flexbox/grow">flex-grow</Link>
