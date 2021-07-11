@@ -15,9 +15,13 @@ import Shortcuts from './Grid/ShortCuts';
 import Template from './Grid/Template';
 import Items from './Grid/Items';
 import Auto from './Grid/Auto';
+import Clone from './Clone/Clone';
+import Bhs from './Clone/Bhs';
+import GlobalStyle from './Globalstyles';
 
 function App() {
-  return (
+  return (<>
+    <GlobalStyle />
     <Router>
       <Switch>
         <Route path="/" exact><Home /></Route>
@@ -35,8 +39,11 @@ function App() {
         <Route path="/grid/items"><Items /></Route>
         <Route path="/grid/auto"><Auto /></Route>
         <Route path="/grid"><Grid /></Route>
+        <Route path="/clone/bhs"><Bhs /></Route>
+        <Route path="/clone"><Clone /></Route>
       </Switch>
     </Router>
+  </>
   );
 }
 

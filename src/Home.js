@@ -17,6 +17,9 @@ const Home = () => {
     <Item>
       <Link to="/grid">Grid</Link>
     </Item>
+    <Item>
+      <Link to="/clone">Clone Web</Link>
+    </Item>
   </List>);
 }
 

@@ -3,11 +3,9 @@ import styled from 'styled-components';
 
 const Father = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  /* grid-template-rows: repeat(4, 100px); */
   grid-auto-rows: 100px;
-  grid-auto-columns: 100px;
-  grid-auto-flow: column;
   gap: 5px;
   
 `
