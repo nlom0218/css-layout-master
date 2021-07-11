@@ -19,6 +19,7 @@ import Clone from './Clone/Clone';
 import Bhs from './Clone/Bhs';
 import GlobalStyle from './Globalstyles';
 import Pb from './Clone/Pb';
+import Ten from './Clone/Ten';
 
 function App() {
   return (<>
@@ -42,6 +43,7 @@ function App() {
         <Route path="/grid"><Grid /></Route>
         <Route path="/clone/bhs"><Bhs /></Route>
         <Route path="/clone/pb"><Pb /></Route>
+        <Route path="/clone/ten"><Ten /></Route>
         <Route path="/clone"><Clone /></Route>
       </Switch>
     </Router>

@@ -18,7 +18,7 @@ const Clone = () => {
       <Link to="/clone/pb">Paint Box</Link>
     </Item>
     <Item>
-      <Link to="/flexbox/grow">flex-grow</Link>
+      <Link to="/clone/ten">10*19</Link>
     </Item>
     <Item>
       <Link to="/flexbox/shrink">flex-shrink</Link>
