@@ -7,7 +7,11 @@ const List = styled.ul`
   flex-direction: column;
 `
 
-const Item = styled.li``
+const Item = styled.li`
+  a {
+    font-size: 30px;
+  }
+`
 
 const Clone = () => {
   return (<List>
@@ -21,7 +25,7 @@ const Clone = () => {
       <Link to="/clone/ten">10*19</Link>
     </Item>
     <Item>
-      <Link to="/flexbox/shrink">flex-shrink</Link>
+      <Link to="/clone/zoo">Zoo</Link>
     </Item>
     <Item>
       <Link to="/flexbox/basis">flex-basis</Link>

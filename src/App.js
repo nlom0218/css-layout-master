@@ -20,6 +20,7 @@ import Bhs from './Clone/Bhs';
 import GlobalStyle from './Globalstyles';
 import Pb from './Clone/Pb';
 import Ten from './Clone/Ten';
+import Zoo from './Clone/Zoo';
 
 function App() {
   return (<>
@@ -44,6 +45,7 @@ function App() {
         <Route path="/clone/bhs"><Bhs /></Route>
         <Route path="/clone/pb"><Pb /></Route>
         <Route path="/clone/ten"><Ten /></Route>
+        <Route path="/clone/zoo"><Zoo /></Route>
         <Route path="/clone"><Clone /></Route>
       </Switch>
     </Router>
